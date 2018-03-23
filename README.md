@@ -4,6 +4,11 @@ PyTorch code for CVPR 2018 paper (Zero-Shot Learning part): [Learning to Compare
 
 [Li Zhang](http://www.robots.ox.ac.uk/~lz/) | [Flood Sung](https://github.com/songrotek)
 
+# Reqirement
+
+Python 2.7
+
+Pytorch 0.3
 
 # Data
 Download data from [here](http://www.robots.ox.ac.uk/~lz/DEM_cvpr2017/data.zip) and unzip it `unzip data.zip`.
