@@ -1,8 +1,8 @@
 # LearningToCompare_RN_ZSL
 
-PyTorch code for CVPR 2018 paper: [Learning to Compare: Relation Network for Few-Shot Learning](https://arxiv.org/abs/1711.06025) Zero-Shot Learning part
+PyTorch code for CVPR 2018 paper (Zero-Shot Learning part): [Learning to Compare: Relation Network for Few-Shot Learning](https://arxiv.org/abs/1711.06025) 
 
-[Li Zhang](http://www.robots.ox.ac.uk/~lz/) | Flood Sung
+[Li Zhang](http://www.robots.ox.ac.uk/~lz/) | [Flood Sung](https://github.com/songrotek)
 
 
 # Data
