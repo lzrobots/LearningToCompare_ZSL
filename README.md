@@ -22,13 +22,6 @@ ZSL and GZSL performance evaluated under GBU setting [1]: ResNet feature, GBU sp
 
 `CUB_RN.py` will give you ZSL and GZSL performance on CUB with attribute under GBU setting [1].
 
-`aPY_RN.py` will give you ZSL and GZSL performance on aPY with attribute under GBU setting [1].
-
-`SUN_RN.py` will give you ZSL and GZSL performance on SUN with attribute under GBU setting [1].
-
-
-
-
 
 | Model      |   AwA1 T1    |    u    |    s    |    H    |   CUB T1    |    u    |    s    |    H    |
 |------------|---------|---------|---------|---------|---------|---------|---------|---------|
@@ -46,38 +39,23 @@ ZSL and GZSL performance evaluated under GBU setting [1]: ResNet feature, GBU sp
 | **RN (OURS)** |68.2  | 31.4  | **91.3**   |  46.7  |  **55.6** |  **38.1**   |  61.4   |  **47.0**  |
 
 
-| Model      |   AwA2 T1    |    u    |    s    |    H    |   aPY T1    |    u    |    s    |    H    |
-|------------|---------|---------|---------|---------|---------|---------|---------|---------|
-| DAP [2]      |   46.1  |   0.0    |   84.7  |   0.0   |   33.8  |   4.8   |   78.3  |   9.0   |
-| CONSE [3]     |   44.5  |   0.5   | 90.6|   1.0   |   26.9  |   0.0   |**91.2** |   0.0   |
-| SSE [4]       |   61.0  |   8.1   |   82.5  |   14.8  |   34.0  |   0.2   |   78.9  |   0.4   |
-| DEVISE [5]    |   59.7  |   17.1  |   74.7  |   27.8  |   39.8  |   4.9   |   76.9  |   9.2   |
-| SJE [6]       |   61.9  |   8.0   |   73.9  |   14.4  |   32.9  |   3.7   |   55.7  |   6.9   |
-| LATEM [7]     |   55.8  |   11.5  |   77.3  |   20.0  |   35.2  |   0.1   |   73.0  |   0.2   |
-| ESZSL [8]     |   58.6  |   5.9   |   77.8  |   11.0  |   38.3  |   2.4   |   70.1  |   4.6   |
-| ALE [9]       |   62.5  |   14.0  |   81.8  |   23.9  |   39.7  |   4.6   |   73.7  |   8.7   |
-| SYNC [10]     |   46.6  |   10.0  |   90.5  |   18.0  |   23.9  |   7.4   |   66.3  |   13.3  |
-| SAE [11]      |   54.1  |   1.1   |   82.2  |   2.2   |   8.3   |   0.4   |   80.9  |   0.9   |
-| DEM [12] | **67.1** | **30.5** | 86.4 | 45.1|   35.0  | **11.1**|  75.1   |**19.4** |
-| **RN (OURS)** |64.2   | 30.0 | **93.4**  | **45.3** |     |  |      |  |
-
-
-
-
-| Model      |   SUN T1    |    u    |    s    |    H    |  
+| Model      |   AwA2 T1    |    u    |    s    |    H    | 
 |------------|---------|---------|---------|---------|
-| DAP [2]      |   39.9  |   4.2   |   25.1  |   7.2   | 
-| CONSE [3]     |   38.8  |   6.8  |   39.9  |   11.6   |  
-| SSE [4]       |   51.5 |   2.1  |   36.4 |   4.0  |   
-| DEVISE [5]    |   56.5  |   16.9  |   27.4  |   20.9  |   
-| SJE [6]       |   53.7  |   14.7  |   30.5  |   19.8  |  
-| LATEM [7]     |   55.3  |   14.7  |   28.8  |   19.5  |  
-| ESZSL [8]     |   54.5  |   11.0   |  27.9  |   15.8  |   
-| ALE [9]       |   58.1  |   **21.8**  |   33.1  |   **26.3**  |   
-| SYNC [10]      |   56.3  |   7.9   |   **43.3**  |   13.4  |  
-| SAE [11]       |   40.3  |   8.8   |   18.0  |   11.8  |  
-| DEM [12]  | **61.9** | 20.5 | 34.3 |  25.6 | 
-| **RN (OURS)** |  |   |   |    | 
+| DAP [2]      |   46.1  |   0.0    |   84.7  |   0.0   |
+| CONSE [3]     |   44.5  |   0.5   | 90.6|   1.0   |   
+| SSE [4]       |   61.0  |   8.1   |   82.5  |   14.8  |  
+| DEVISE [5]    |   59.7  |   17.1  |   74.7  |   27.8  |  
+| SJE [6]       |   61.9  |   8.0   |   73.9  |   14.4  |  
+| LATEM [7]     |   55.8  |   11.5  |   77.3  |   20.0  | 
+| ESZSL [8]     |   58.6  |   5.9   |   77.8  |   11.0  |  
+| ALE [9]       |   62.5  |   14.0  |   81.8  |   23.9  | 
+| SYNC [10]     |   46.6  |   10.0  |   90.5  |   18.0  |  
+| SAE [11]      |   54.1  |   1.1   |   82.2  |   2.2   | 
+| DEM [12] | **67.1** | **30.5** | 86.4 | 45.1| 
+| **RN (OURS)** |64.2   | 30.0 | **93.4**  | **45.3** | 
+
+
+
 
 
 
@@ -86,7 +64,7 @@ ZSL and GZSL performance evaluated under GBU setting [1]: ResNet feature, GBU sp
 If you use this code in your research, please use the following BibTeX entry.
 
 ```
-@inproceedings{sung2017learning,
+@inproceedings{sung2018learning,
   title={Learning to Compare: Relation Network for Few-Shot Learning},
   author={Sung, Flood and Yang, Yongxin and Zhang, Li and Xiang, Tao and Torr, Philip HS and Hospedales, Timothy M},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
