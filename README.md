@@ -33,7 +33,7 @@ ZSL and GZSL performance evaluated under GBU setting [1]: ResNet feature, GBU sp
 | ALE [9]       |   59.9  |   16.8  |   76.1  |   27.5  |   54.9  |   23.7  |   62.8  |   34.4  |
 | SYNC [10]      |   54.0  |   8.9   |   87.3  |   16.2  |   55.6  |   11.5  |   70.9  |   19.8  |
 | SAE [11]       |   53.0  |   1.8   |   77.1  |   3.5   |   33.3  |   7.8   |   54.0  |   13.6  |
-| DEM [12] | **68.4** | **32.8** | 84.7  |  **47.3** | 51.7  |   19.6  |  57.9  |  29.2 |
+| [DEM](https://github.com/lzrobots/DeepEmbeddingModel_ZSL) [12] | **68.4** | **32.8** | 84.7  |  **47.3** | 51.7  |   19.6  |  57.9  |  29.2 |
 | **RN (OURS)** |68.2  | 31.4  | **91.3**   |  46.7  |  **55.6** |  **38.1**   |  61.4   |  **47.0**  |
 
 
@@ -49,7 +49,7 @@ ZSL and GZSL performance evaluated under GBU setting [1]: ResNet feature, GBU sp
 | ALE [9]       |   62.5  |   14.0  |   81.8  |   23.9  | 
 | SYNC [10]     |   46.6  |   10.0  |   90.5  |   18.0  |  
 | SAE [11]      |   54.1  |   1.1   |   82.2  |   2.2   | 
-| DEM [12] | **67.1** | **30.5** | 86.4 | 45.1| 
+| [DEM](https://github.com/lzrobots/DeepEmbeddingModel_ZSL) [12] | **67.1** | **30.5** | 86.4 | 45.1| 
 | **RN (OURS)** |64.2   | 30.0 | **93.4**  | **45.3** | 
 
 
