@@ -2,7 +2,7 @@
 
 PyTorch code for CVPR 2018 paper: [Learning to Compare: Relation Network for Few-Shot Learning](https://arxiv.org/abs/1711.06025) (Zero-Shot Learning part)
 
-# Reqirement
+# Requirements
 
 Python 2.7
 
