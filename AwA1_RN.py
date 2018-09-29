@@ -252,12 +252,22 @@ def main():
 
 
                     _,predict_labels = torch.max(relations.data,1)
-    
-                    rewards = [1 if predict_labels[j]==re_batch_labels[j] else 0 for j in range(batch_size)]
-                    total_rewards += np.sum(rewards)
-                test_accuracy = total_rewards/1.0/test_size
+                    predict_labels = predict_labels.cpu().numpy()
+                    re_batch_labels = re_batch_labels.cpu().numpy()
+                    
+                    predict_labels_total = np.append(predict_labels_total, predict_labels)
+                    re_batch_labels_total = np.append(re_batch_labels_total, re_batch_labels)
 
-                return test_accuracy
+                # compute averaged per class accuracy    
+                predict_labels_total = np.array(predict_labels_total, dtype='int')
+                re_batch_labels_total = np.array(re_batch_labels_total, dtype='int')
+                unique_labels = np.unique(re_batch_labels_total)
+                acc = 0
+                for l in unique_labels:
+                    idx = np.nonzero(re_batch_labels_total == l)[0]
+                    acc += accuracy_score(re_batch_labels_total[idx], predict_labels_total[idx])
+                acc = acc / unique_labels.shape[0]
+                return acc
             
             zsl_accuracy = compute_accuracy(test_features,test_label,test_id,test_attributes)
             gzsl_unseen_accuracy = compute_accuracy(test_features,test_label,np.arange(50),attributes)
