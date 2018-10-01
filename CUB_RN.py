@@ -222,6 +222,8 @@ def main():
                 test_size = test_features.shape[0]
                 
                 print("class num:",class_num)
+                predict_labels_total = []
+                re_batch_labels_total = []
                 
                 for batch_features,batch_labels in test_loader:
 
